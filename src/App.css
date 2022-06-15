@@ -1,38 +1,50 @@
-.App {
+body {
+  font-family: "Inria Serif', serif";
+  font-size: 1.3rem;
+}
+.nav-font {
+  font-family: "Inknut Antiqua', serif";
+}
+/* hero section */
+.hero {
+  min-height: 60vh;
+  font-weight: 600;
+  background: linear-gradient(rgba(73, 225, 73, 0.862), yellow);
+}
+/* titles */
+.title {
   text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title span {
+  padding: 0.5rem 2rem;
+  border-bottom: 0.4rem solid red;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* icons */
+.icons i {
+  font-size: 3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icons > div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 1rem;
+  margin: 1rem;
+}
+/* projects */
+.projects {
+  background: #dde1b0;
+}
+.projects .row {
+  --bs-gutter-x: 0;
+}
+.projects a {
   color: white;
+  text-decoration: none;
 }
-
-.App-link {
-  color: #61dafb;
+/* about section */
+.about {
+  background: linear-gradient(rgba(73, 225, 73, 0.862), rgb(92, 178, 201));
+  border-radius: 31px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* contact */
