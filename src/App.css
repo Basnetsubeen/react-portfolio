@@ -5,6 +5,9 @@ body {
 .nav-font {
   font-family: "Inknut Antiqua', serif";
 }
+.navbar {
+  background: linear-gradient(rgba(73, 225, 73, 0.862), yellow);
+}
 /* hero section */
 .hero {
   min-height: 60vh;
